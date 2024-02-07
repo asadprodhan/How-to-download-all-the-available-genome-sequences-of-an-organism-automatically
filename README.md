@@ -1,4 +1,4 @@
-# **How to download all the available genome sequences of an organism automatically?** <br />
+# **How to automatically download all the available genome sequences of an organism?** <br />
 
 
 ### **AUTHOR: Dr Asad Prodhan** https://asadprodhan.github.io/
