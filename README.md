@@ -1,7 +1,7 @@
 # **How to download all the available genome sequences of an organism automatically?** <br />
 
 
-### **AUTHOR: Dr Asad Prodhan** **https://asadprodhan.github.io/**
+### **AUTHOR: Dr Asad Prodhan** https://asadprodhan.github.io/
 
 
 <br />
@@ -28,6 +28,9 @@ https://github.com/ncbi/datasets
 
 <br />
 
+<br />
+
+
 ### **Step 2: Download the genome sequences of a taxon using a single command**
 
 
@@ -42,7 +45,9 @@ datasets download genome taxon fusarium
 **Likewise, you can use the datasets command to download individual genome or gene sequences.**
 
 
-To download a single accession:
+
+**To download a single accession:**
+
 
 
 ```
@@ -52,7 +57,9 @@ datasets download genome accession GCA_000839805.1
 <br />
 
 
+
 **To download a list of accessions:**
+
 
 
 - Make a directory and name it “Downloads”
@@ -64,6 +71,7 @@ datasets download genome accession GCA_000839805.1
 - Keep the following **Downloading script** in the ‘Downloads’ directory 
 
 <br />
+
 
 **Downloading script**
 
@@ -133,6 +141,7 @@ dos2unix accession_list.csv
 <br />
 
 
+
 **To download a gene sequence:**
 
 
@@ -152,6 +161,7 @@ datasets download gene gene-id 30515447
 
 
 **To download virus genome sequences:**
+
 
 
 ```
