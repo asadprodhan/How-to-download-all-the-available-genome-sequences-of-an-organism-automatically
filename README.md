@@ -26,7 +26,8 @@ https://www.ncbi.nlm.nih.gov/datasets/docs/v2/download-and-install/
 
 https://github.com/ncbi/datasets
 
- 
+<br />
+
 ### **Step 2: Download the genome sequences of a taxon using a single command**
 
 
@@ -48,8 +49,10 @@ To download a single accession:
 datasets download genome accession GCA_000839805.1
 ```
 
+<br />
 
-To download a list of accessions:
+
+**To download a list of accessions:**
 
 
 - Make a directory and name it “Downloads”
@@ -60,8 +63,9 @@ To download a list of accessions:
 
 - Keep the following **Downloading script** in the ‘Downloads’ directory 
 
+<br />
 
-### **Downloading script**
+**Downloading script**
 
 
 ```
@@ -92,6 +96,8 @@ do
 done < ${metadata}
 
 ```
+
+<br />
 
 
 - Keep the ‘accession_list.csv’ file in the ‘Downloads’ directory 
@@ -124,7 +130,10 @@ dos2unix accession_list.csv
 **Now, you have downloaded the genomic sequences of all the accessions in your list.**
 
 
-To download a gene sequence:
+<br />
+
+
+**To download a gene sequence:**
 
 
 ```
@@ -142,7 +151,7 @@ datasets download gene gene-id 30515447
 ```
 
 
-To download virus genome sequences:
+**To download virus genome sequences:**
 
 
 ```
